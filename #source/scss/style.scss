@@ -1,0 +1,21 @@
+//обнуление//
+@import "_nullstyle";
+@import "_mixins";
+//обнуление//
+
+// blocks scss//
+@import "_header";
+@import "_main";
+@import "_footer";
+@import "_media";
+// blocks scss//
+
+// fonts//
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+// fonts//

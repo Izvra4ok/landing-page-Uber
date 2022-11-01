@@ -1,0 +1,184 @@
+@mixin btn_hover {
+  &:before,
+  &:after{
+    position: relative;
+    content: "";
+    width: 0;
+    transition: .5s all;
+  }
+  &:hover,
+  &:active{
+    transform: scale(1.03, 1.03);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    position: relative;
+    transition: .1s all;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);  
+    color:white;
+    &::before{
+      position: absolute;
+      bottom:0;
+      left:0;
+      transition: .9s all;
+      content: "";
+      width: 50%;
+      height: 2px;
+      transition: .9s all;
+      background-color: white;
+    }
+    &::after{
+      position: absolute;
+      bottom:0;
+      right:0;
+      content: "";
+      width: 50%;
+      height: 2px;
+      transition: .9s all;
+      background-color: white;
+    }
+  }
+}
+@mixin mobile_btn_hover {
+  &:before,
+  &:after{
+    position: relative;
+    transition: none;
+  }
+  &:hover,
+  &:active{
+    border:none;
+    position: relative;
+    transition: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);  
+    color:white;
+    &::before{
+      position: relative;
+      background-color: white;
+    }
+    &::after{
+      position: relative;
+      background-color: white;
+    }
+  }
+}
+
+@mixin nav_hover {
+  &:before,
+  &:after{
+    position: relative;
+    content: "";
+    width: 0;
+    transition: .5s all;
+  }
+  &:hover,
+  &:active{
+    color:white;
+    position: relative;
+    transition: 1s all;
+    &::before{
+      position: absolute;
+      bottom:0;
+      left:0;
+      transition: .5s all;
+      content: "";
+      width: 50%;
+      height: 1px;
+      transition: .5s all;
+      background-color: rgb(255, 255, 255);
+    }
+    &::after{
+      position: absolute;
+      bottom:0;
+      right:0;
+      content: "";
+      width: 50%;
+      height: 1px;
+      transition: .5s all;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+@mixin mobile_nav_hover {
+  &:before,
+  &:after{
+    position: relative;
+    transition: none;
+  }
+  &:hover,
+  &:active{
+    color:white;
+    position: relative;
+    transition: none;
+    &::before{
+      position: relative;
+      transition: none;
+      // background-color: rgb(255, 255, 255);
+    }
+    &::after{
+      position: relative;
+      transition: none;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+@mixin footer_hover {
+  &:before,
+  &:after{
+    position: relative;
+    content: "";
+    width: 0;
+    transition: .5s all;
+  }
+  &:hover,
+  &:active{
+    color:rgb(0, 0, 0);
+    position: relative;
+    transition: 1s all;
+    &::before{
+      position: absolute;
+      bottom:0;
+      left:0;
+      transition: .5s all;
+      content: "";
+      width: 50%;
+      height: 1px;
+      transition: .5s all;
+      background-color: rgb(0, 0, 0);
+    }
+    &::after{
+      position: absolute;
+      bottom:0;
+      right:0;
+      content: "";
+      width: 50%;
+      height: 1px;
+      transition: .5s all;
+      background-color: rgb(0, 0, 0);
+    }
+  }
+}
+
+@mixin mobile_footer_hover {
+  &:before,
+  &:after{
+    position: relative;
+    transition: none;
+  }
+  &:hover,
+  &:active{
+    position: relative;
+    transition: none;
+    &::before{
+      position: relative;
+      transition: none;
+    }
+    &::after{
+      position: relative;
+      transition: none;
+    }
+  }
+}
+
+
