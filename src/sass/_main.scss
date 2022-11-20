@@ -45,7 +45,7 @@
 .first {
   padding: 150px 0px 135px 0px;
   min-height: 800px;
-  background: url("../img/header/uber_bg.png") center center/cover no-repeat;
+  background: url("../../img/header/uber_bg.png") center center/cover no-repeat;
   z-index: 10;
 }
 
@@ -193,7 +193,7 @@
   align-items: center;
   width: 320px;
   height: 280px;
-  background: url("../img/mobile/card__1.png");
+  background: url("../../img/mobile/card__1.png");
   font-family: "Roboto";
   font-size: 24px;
   line-height: 31px;
@@ -212,28 +212,28 @@
   background-color: rgb(255, 255, 255);
 
   &_1 {
-    background: url("../img/mobile/card__1.png") center center/cover no-repeat;
+    background: url("../../img/mobile/card__1.png") center center/cover no-repeat;
   }
 
   &_2 {
-    background: url("../img/mobile/card__2.png") center center/cover no-repeat;
+    background: url("../../img/mobile/card__2.png") center center/cover no-repeat;
   }
 
   &_3 {
-    background: url("../img/mobile/card__3.png") center center/cover no-repeat;
+    background: url("../../img/mobile/card__3.png") center center/cover no-repeat;
   }
 
   &_4 {
-    background: url("../img/mobile/card__4.png") center center/cover no-repeat;
+    background: url("../../img/mobile/card__4.png") center center/cover no-repeat;
   }
 
   &_5 {
-    background: url("../img/mobile/card__5.png") center center/cover no-repeat;
+    background: url("../../img/mobile/card__5.png") center center/cover no-repeat;
   }
 
   &_6 {
     margin-bottom: 0px;
-    background: url("../img/mobile/card__6.png") center center/cover no-repeat;
+    background: url("../../img/mobile/card__6.png") center center/cover no-repeat;
   }
 
   &_subtitle {
@@ -405,7 +405,7 @@
     padding: 0px 5px 0px 20px;
     width: 21px;
     height: 20px;
-    background: url("../icons/check/check_blue\ 7.svg") center center no-repeat;
+    background: url("../../icons/check/check_blue\ 7.svg") center center no-repeat;
   }
 
   &_disagree:before {
@@ -415,7 +415,7 @@
     height: 20px;
     margin: 0px 5px 0px -20px;
     padding: 0px 5px 0px 20px;
-    background: url("../icons/check/check_red\ 7.svg") center center no-repeat;
+    background: url("../../icons/check/check_red\ 7.svg") center center no-repeat;
   }
 }
 
@@ -432,5 +432,5 @@
   padding-top: 60px;
   padding-bottom: 90px;
   max-height: 720px;
-  background: url("../img/world/world_bg.png") center center/cover no-repeat;
+  background: url("../../img/world/world_bg.png") center center/cover no-repeat;
 }

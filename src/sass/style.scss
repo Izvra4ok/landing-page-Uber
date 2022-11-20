@@ -1,13 +1,13 @@
 //обнуление//
-@import "_nullstyle";
-@import "_mixins";
+@import "src/sass/nullstyle";
+@import "src/sass/mixins";
 //обнуление//
 
 // blocks scss//
-@import "_header";
-@import "_main";
-@import "_footer";
-@import "_media";
+@import "src/sass/header";
+@import "src/sass/main";
+@import "src/sass/footer";
+@import "src/sass/media";
 // blocks scss//
 
 // fonts//
